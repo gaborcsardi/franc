@@ -5,8 +5,8 @@
 \alias{franc_all}
 \title{List of probably languages for a text}
 \usage{
-franc_all(text, min_speakers = 1e+06, whitelist = NULL, blacklist = NULL,
-  min_length = 10, max_length = 2048)
+franc_all(text, min_speakers = 1e+06, whitelist = NULL,
+  blacklist = NULL, min_length = 10, max_length = 2048)
 }
 \arguments{
 \item{text}{A string constant. Should be at least \code{min_length}
@@ -56,4 +56,3 @@ head(franc_all("O Brasil caiu 26 posições",
 \code{\link{franc}} if you only want the top result,
   \code{\link{speakers}}.
 }
-

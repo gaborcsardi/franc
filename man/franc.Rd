@@ -52,4 +52,3 @@ franc("the", min_length = 3)
 \code{\link{franc_all}} for scores against many languages,
   \code{\link{speakers}}.
 }
-
