@@ -3,7 +3,7 @@ Title: Detect the Language of Text
 Version: 1.1.1.9000
 Author: Gabor Csardi, Titus Wormer, Maciej Ceglowski, Jacob R. Rideout,
     and Kent S. Johnson
-Maintainer: Gabor Csardi <gcsardi@mango-solutions.com>
+Maintainer: Gábor Csárdi <csardi.gabor@gmail.com>
 Description: With no external dependencies and
     support for 335 languages; all languages spoken by
     more than one million speakers. 'Franc' is a port
@@ -11,8 +11,8 @@ Description: With no external dependencies and
     see <https://github.com/wooorm/franc>.
 License: MIT + file LICENSE
 LazyData: true
-URL: https://github.com/mangothecat/franc
-BugReports: https://github.com/mangothecat/franc/issues
+URL: https://github.com/gaborcsardi/franc#readme
+BugReports: https://github.com/gaborcsardi/franc/issues
 Suggests:
     testthat
 RoxygenNote: 5.0.1
