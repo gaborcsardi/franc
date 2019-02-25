@@ -1,6 +1,6 @@
 Package: franc
 Title: Detect the Language of Text
-Version: 1.1.1.9000
+Version: 1.1.2
 Author: Gabor Csardi, Titus Wormer, Maciej Ceglowski, Jacob R. Rideout,
     and Kent S. Johnson
 Maintainer: Gábor Csárdi <csardi.gabor@gmail.com>
