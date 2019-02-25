@@ -1,6 +1,4 @@
 
-speakers_file <- system.file("speakers.json", package = packageName())
-
 #' Number of speakers for 370 languages
 #'
 #' This is a superset of all languages detected by franc. Numbers were
@@ -24,7 +22,9 @@ speakers_file <- system.file("speakers.json", package = packageName())
 #' @importFrom jsonlite fromJSON
 #' @export
 
-speakers <- jsonlite::fromJSON(speakers_file, simplifyVector = FALSE)
+speakers <- jsonlite::fromJSON(
+  system.file("speakers.json", package = packageName()),
+  simplifyVector = FALSE)
 
 for (i in seq_along(speakers)) {
   if (is.null(speakers[[i]][[2]])) speakers[[i]][[2]] <- NA_character_
