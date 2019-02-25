@@ -21,7 +21,7 @@ https://github.com/wooorm/franc.
 
 
 ```r
-devtools::install_github("mangothecat/franc")
+install.packages("franc")
 ```
 
 ## Usage
