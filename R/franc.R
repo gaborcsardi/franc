@@ -4,11 +4,11 @@
 ##
 ## Note that this happens at build time
 
-datafile <- system.file("data.json", package = packageName())
-
 #' @importFrom jsonlite fromJSON
 
-data <- jsonlite::fromJSON(datafile, simplifyVector = FALSE)
+data <- jsonlite::fromJSON(
+  system.file("data.json", package = packageName()),
+  simplifyVector = FALSE)
 
 for (script in names(data)) {
   for (language in names(data[[script]])) {
