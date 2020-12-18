@@ -1,6 +1,6 @@
 
 match_length <- function(pattern, text) {
-  mat <- gregexpr(pattern, text)[[1]]
+  mat <- gregexpr(pattern, text, perl = TRUE)[[1]]
   if (mat[1] == -1) 0 else sum(attr(mat, "match.length"))
 }
 
