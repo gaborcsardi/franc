@@ -12,10 +12,10 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org)
 [![R build status](https://github.com/gaborcsardi/franc/workflows/R-CMD-check/badge.svg)](https://github.com/gaborcsardi/franc/actions)
-[![](http://www.r-pkg.org/badges/version/franc)](http://www.r-pkg.org/pkg/franc)
-[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/franc)](http://www.r-pkg.org/pkg/franc)
+[![](https://www.r-pkg.org/badges/version/franc)](https://www.r-pkg.org/pkg/franc)
+[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/franc)](https://www.r-pkg.org/pkg/franc)
 [![Coverage Status](https://img.shields.io/codecov/c/github/gaborcsardi/franc/master.svg)](https://codecov.io/github/gaborcsardi/franc?branch=master)
 
 <!-- badges: end -->
