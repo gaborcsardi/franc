@@ -1,6 +1,7 @@
 
 match_length <- function(pattern, text) {
-  mat <- gregexpr(pattern, text, perl = TRUE)[[1]]
+  perl <- .Platform$OS.type == "windows"
+  mat <- gregexpr(pattern, text, perl = perl)[[1]]
   if (mat[1] == -1) 0 else sum(attr(mat, "match.length"))
 }
 
