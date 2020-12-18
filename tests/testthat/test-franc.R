@@ -9,6 +9,10 @@ test_that("top language is detected correctly", {
   expect_equal(franc("the", min_length = 3), "sco")
 })
 
+test_that("no matching script", {
+  expect_equal(franc(strrep("\U0001f4e6", 30)), "und")
+})
+
 test_that("language scores are calculated correctly", {
 
   scores <- franc_all('O Brasil caiu 26 posi\u00c7\u00f5es')
@@ -26,4 +30,13 @@ test_that("language scores are calculated correctly", {
     )
   )
 
+})
+
+test_that("whitelist", {
+  txt <- paste(
+    "Somogy és Baranya megyét egy földút is összeköti, ahová a",
+    "navigációs szoftverek néha bekalauzolják a gyanútlan autóst,",
+    "aztán a helyiek húzzák ki őket a sárból. -- telex.hu"
+  )
+  expect_equal(franc(txt, whitelist = c("hun", "eng", "esp")), "hun")
 })
