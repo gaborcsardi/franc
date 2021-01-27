@@ -13,9 +13,9 @@
 #'   \item{speakers}{Number of speakers.}
 #'   \item{name}{Full name of language.}
 #'   \item{iso6391}{ISO 639-1 codes. See more at
-#'     \url{http://en.wikipedia.org/wiki/ISO_639}.}
+#'     \url{https://en.wikipedia.org/wiki/ISO_639}.}
 #'   \item{iso6392}{ISO 639-2T codes. See more at
-#'     \url{http://en.wikipedia.org/wiki/ISO_639}.}
+#'     \url{https://en.wikipedia.org/wiki/ISO_639}.}
 #' }
 #'
 #' @docType data
