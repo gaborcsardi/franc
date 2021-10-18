@@ -23,5 +23,10 @@ clean_trigrams <- function(value) {
 
 clean_trigrams_table <- function(value) {
   stopifnot(is.character(value), length(value) == 1)
-  table(clean_trigrams(value))
+  tab <- table(clean_trigrams(value))
+  # This is the behavior of table before
+  # https://github.com/wch/r-source/commit/09ae38a25149d02a21b19ef33c3d09ef92f72351
+  # Not very important for us, but we had a test case for it.
+  names(dimnames(tab)) <- ""
+  tab
 }
