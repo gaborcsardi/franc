@@ -1,4 +1,4 @@
 library(testthat)
 library(franc)
 
-test_check("franc")
+if (Sys.getenv("NOT_CRAN") == "true") test_check("franc")
