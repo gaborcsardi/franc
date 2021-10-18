@@ -10,7 +10,6 @@ Description: With no external dependencies and
     of the 'JavaScript' project of the same name,
     see <https://github.com/wooorm/franc>.
 License: MIT + file LICENSE
-LazyData: true
 URL: https://github.com/gaborcsardi/franc#readme
 BugReports: https://github.com/gaborcsardi/franc/issues
 Suggests:
